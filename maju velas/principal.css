@@ -1,0 +1,228 @@
+.logotipo{
+    width: 40%;
+}
+.pesquisa{
+    width: 60%;
+    position: absolute;
+    margin-top: 20%;
+    top: 0px;
+    right: 80px;
+    left: 300px;
+}
+header { 
+    background-color: rgba(194, 183, 175, 0.966);
+}
+.caixa{
+    position: relative;
+    width: 1480px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    margin-top: 20px;
+    top: 10px;
+    right: 0px;
+    width: 20%;
+}
+.logotipo{
+    width: 20%;
+    position: relative;
+    right: 220px;
+}
+.menu{
+    width: 200px;
+}
+.banner{
+    text-align: center;
+}
+.vela1{
+    width: 50%;
+    margin-top: 20px;
+    background-color: rgba(194, 183, 175, 0.966);
+}
+.caminhao{
+    width: 15%;
+    position: absolute;
+    left: 400px;
+}
+.cartao{
+    width: 15%;
+    position: absolute;
+    left: 800px;
+}
+.cadeado{
+    width: 15%;
+    position: absolute;
+    left: 1240px;
+}
+
+/* botão do dropdown */
+.dropbtn {
+    
+    background-image: url("icone_menu.png");
+    background-size: 50px;
+    background-color: rgba(194, 183, 175, 0.966);
+    color: rgba(194, 183, 175, 0.966);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    background-repeat: no-repeat;
+    
+  }
+  
+  /* imagem de fundo do dropdown */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(194, 183, 175, 0.966);
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Conteúdo */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(194, 183, 175, 0.966);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links dentro do dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgba(194, 183, 175, 0.966);}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background: rgba(194, 183, 175, 0.966);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: rgba(194, 183, 175, 0.966);
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.busca{
+    position: absolute;
+    right: 0;
+    top: 218px;
+}
+
+.pessoa{
+  width: 3%;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+.button{
+  position: absolute;
+  right: 215px;
+  top: 150px;
+}
+
+.professor{
+  width: 10%;
+  position: absolute;
+  left: 1500px;
+  top: 150px;
+}
