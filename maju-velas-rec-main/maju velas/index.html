@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="principal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--título principal do site-->
+    <title>Aroma Velas</title>
+</head>
+<body>
+
+    <header>
+        <div class="caixa">
+          <!--logotipo do site-->
+           <h1><img class="logotipo" src="logotipo.png" alt="Logo do site"></h1> 
+           <!--imagem que refere-se ao login-->
+           <img class="pessoa" src="pessoa.png">
+           <!--"texto" de boas vindas ao fazer login-->
+           <h2 class="professor"> Bem-Vindo!</h2>
+            
+        </div> 
+        <!--botão onde encontra-se todos os conteúdos-->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Conteúdo</a>
+                <a href="produtos.html">Serviços</a>
+                <a href="#">Personalização</a>
+                <a href="#">Lembrancinhas</a>
+                <a href="#">Coleções</a>
+                <a href="#">Kits</a>
+                <a href="contato.html">Fale Conosco</a>
+                <a href="créditos.html">Créditos</a>
+
+            </div>
+        </div>
+            <!-- Load icon library -->
+        
+            <!--botão que dá para pesquisar as coisas no site-->
+            <div class="busca">
+            <!-- The form -->
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <!-- botão para login -->
+<button class="button" onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <!-- nomes dos campos para fazer login -->
+    <div class="container">
+      <label for="uname"><b>Usuário</b></label>
+      <input type="text" placeholder="Nome de Usuário" name="uname" id="login" required>
+
+      <label for="psw"><b>Senha</b></label>
+      <input type="password" placeholder="Digite sua Senha" name="psw" id="senha" required>
+
+      <input type="submit" onclick="logar()">
+      <label>
+        <!-- botão para quando for logar uma segunda vez, entrar mais "rápido"-->
+        <input type="checkbox" checked="checked" name="remember"> Lembrar de mim
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <!--botão para cancelar o login-->
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+      <!--botão para mudar a senha em caso de "esquecimento"-->
+      <span class="psw">Esqueceu a senha? <a href="#">Mudar senha</a></span>
+    </div>
+  </form>
+</div>
+    </header>   
+
+    <main>
+        <div class="banner">
+          <!--imagem "principal" para o público ao comprar-->
+            <img class="vela1" src="vela alecrim.png">
+        </div>
+        <!--imagem para denominar o frete para todo o Brasil-->
+        <img class="caminhao" src="caminhao.png">
+        <!--imagem para pagamento em cartão e pix-->
+        <img class="cartao" src="cartao.png">
+        <!--imagem para compra segura-->
+        <img class="cadeado" src="cadeado.png">
+    </main>
+    
+<script src="java.js">
+
+</script>
+<!--rodapé do site-->
+<footer>
+  <p class="copyright">&copy; copyright Ju e Maria</p>
+</footer>
+</body>
+</html>
